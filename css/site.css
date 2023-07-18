@@ -102,8 +102,12 @@ section {
 
 .mainLogo {
     height: 2.25em;
-    padding-left: .08em;
     
+}
+
+.mainHeader {
+    position:absolute;
+    top: 15rem;
 }
 
 .mainTitle,
