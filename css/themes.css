@@ -346,7 +346,7 @@
 
 [data-gs-theme="graytouch"] {
     --gs-theme-core: var(--gs-gray-core);
-    --gs-theme-100: var(--gs-gray-100);
+    --gs-theme-100: var(--gs-pink-100);
     --gs-theme-150: var(--gs-gray-150);
     --gs-theme-200: var(--gs-gray-200);
     --gs-theme-300: var(--gs-gray-300);

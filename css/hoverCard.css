@@ -16,7 +16,7 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     padding: 1.5rem;
     background: white;
     position: relative;
-    display: flex; 
+    display: flex;
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: transform .4s ease-out;
@@ -42,6 +42,34 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     transition: .5s;
 }
 
+.cardTitle {
+    z-index: 2;
+    color: var(--gs-theme-100);
+    font-family: var(--gs-title-font);
+    font-size: 2.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-shadow: 2px 1px #292929;
+    position: absolute;
+    top: 5rem;
+}
+.cardTitleBuzz {
+    z-index: 2;
+    color: var(--gs-theme-100);
+    font-family: var(--gs-title-font);
+    font-size: 2.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-shadow: 2px 1px #292929;
+    position: absolute;
+    bottom: .5rem;
+    right: .8rem;
+}
+
 .hc-card .hc-content p {
     font-size: .9rem;
     letter-spacing: 1px;
@@ -50,6 +78,10 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
 
 .hc-card:hover {
     transform: translateY(20px);
+}
+
+.hc-card:hover .cardTitle, .hc-card:hover .cardTitleBuzz {
+    display: none;
 }
 
 .hc-card:hover .hc-content {
@@ -64,7 +96,7 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,.6);
+    background: rgba(0, 0, 0, .6);
     z-index: 2;
     border-radius: 15px;
     opacity: 0;
