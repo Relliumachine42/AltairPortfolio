@@ -343,3 +343,18 @@
     --gs-theme-850: var(--gs-gray-850);
     --gs-theme-900: var(--gs-gray-900);
 }
+
+[data-gs-theme="graytouch"] {
+    --gs-theme-core: var(--gs-gray-core);
+    --gs-theme-100: var(--gs-gray-100);
+    --gs-theme-150: var(--gs-gray-150);
+    --gs-theme-200: var(--gs-gray-200);
+    --gs-theme-300: var(--gs-gray-300);
+    --gs-theme-400: var(--gs-pink-400);
+    --gs-theme-500: var(--gs-pink-500);
+    --gs-theme-600: var(--gs-gray-600);
+    --gs-theme-700: var(--gs-gray-700);
+    --gs-theme-800: var(--gs-gray-800);
+    --gs-theme-850: var(--gs-gray-850);
+    --gs-theme-900: var(--gs-gray-900);
+}
