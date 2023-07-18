@@ -1,0 +1,345 @@
+:root {
+    /* default theme will be blue */
+    --gs-theme-core: var(--gs-blue-core);
+    --gs-theme-100: var(--gs-blue-100);
+    --gs-theme-150: var(--gs-blue-150);
+    --gs-theme-200: var(--gs-blue-200);
+    --gs-theme-300: var(--gs-blue-300);
+    --gs-theme-400: var(--gs-blue-400);
+    --gs-theme-500: var(--gs-blue-500);
+    --gs-theme-600: var(--gs-blue-600);
+    --gs-theme-700: var(--gs-blue-700);
+    --gs-theme-800: var(--gs-blue-800);
+    --gs-theme-850: var(--gs-blue-850);
+    --gs-theme-900: var(--gs-blue-900);
+
+    /* #region blue */
+    --gs-blue-core: #0d6efd;
+    --gs-blue-100: hsl(216, 50%, 91%);
+    --gs-blue-150: hsl(216, 50%, 86%);
+    --gs-blue-200: hsl(216, 50%, 81%);
+    --gs-blue-300: hsl(216, 50%, 71%);
+    --gs-blue-400: hsl(216, 50%, 61%);
+    --gs-blue-500: hsl(216, 50%, 51%);
+    --gs-blue-600: hsl(216, 50%, 41%);
+    --gs-blue-700: hsl(216, 50%, 31%);
+    --gs-blue-800: hsl(216, 50%, 21%);
+    --gs-blue-850: hsl(216, 50%, 16%);
+    --gs-blue-900: hsl(216, 50%, 11%);
+    /* #endregion blue */
+
+    /* #region indigo */
+    --gs-indigo-core: #6610f2;
+    --gs-indigo-100: hsl(263, 88%, 90%);
+    --gs-indigo-150: hsl(263, 88%, 85%);
+    --gs-indigo-200: hsl(263, 88%, 80%);
+    --gs-indigo-300: hsl(263, 88%, 70%);
+    --gs-indigo-400: hsl(263, 88%, 60%);
+    --gs-indigo-500: hsl(263, 88%, 50%);
+    --gs-indigo-600: hsl(263, 88%, 40%);
+    --gs-indigo-700: hsl(263, 88%, 30%);
+    --gs-indigo-800: hsl(263, 88%, 20%);
+    --gs-indigo-850: hsl(263, 88%, 15%);
+    --gs-indigo-900: hsl(263, 88%, 10%);
+    /* #endregion indigo */
+
+    /* #region purple */
+    --gs-purple-core: #6f42c1;
+    --gs-purple-100: hsl(261, 52%, 90%);
+    --gs-purple-150: hsl(261, 52%, 85%);
+    --gs-purple-200: hsl(261, 52%, 80%);
+    --gs-purple-300: hsl(261, 52%, 70%);
+    --gs-purple-400: hsl(261, 52%, 60%);
+    --gs-purple-500: hsl(261, 52%, 50%);
+    --gs-purple-600: hsl(261, 52%, 40%);
+    --gs-purple-700: hsl(261, 52%, 30%);
+    --gs-purple-800: hsl(261, 52%, 20%);
+    --gs-purple-850: hsl(261, 52%, 15%);
+    --gs-purple-900: hsl(261, 52%, 10%);
+    /* #endregion purple */
+
+    /* #region pink */
+    --gs-pink-core: #d63384;
+    --gs-pink-100: hsl(331, 47%, 90%);
+    --gs-pink-150: hsl(331, 47%, 85%);
+    --gs-pink-200: hsl(331, 47%, 80%);
+    --gs-pink-300: hsl(331, 47%, 70%);
+    --gs-pink-400: hsl(331, 47%, 60%);
+    --gs-pink-500: hsl(331, 47%, 50%);
+    --gs-pink-600: hsl(331, 47%, 40%);
+    --gs-pink-700: hsl(331, 47%, 30%);
+    --gs-pink-800: hsl(331, 47%, 20%);
+    --gs-pink-850: hsl(331, 47%, 15%);
+    --gs-pink-900: hsl(331, 47%, 10%);
+    /* #endregion pink */
+
+    /* #region red */
+    --gs-red-core: #dc3545;
+    --gs-red-100: hsl(355, 70%, 91%);
+    --gs-red-150: hsl(355, 70%, 86%);
+    --gs-red-200: hsl(355, 70%, 81%);
+    --gs-red-300: hsl(355, 70%, 71%);
+    --gs-red-400: hsl(355, 70%, 61%);
+    --gs-red-500: hsl(355, 70%, 51%);
+    --gs-red-600: hsl(355, 70%, 41%);
+    --gs-red-700: hsl(355, 70%, 31%);
+    --gs-red-800: hsl(355, 70%, 21%);
+    --gs-red-850: hsl(355, 70%, 16%);
+    --gs-red-900: hsl(355, 70%, 11%);
+    /* #endregion red */
+
+    /* #region orange */
+    --gs-orange-core: #fd7e14;
+    --gs-orange-100: hsl(19, 50%, 91%);
+    --gs-orange-150: hsl(19, 50%, 86%);
+    --gs-orange-200: hsl(19, 50%, 81%);
+    --gs-orange-300: hsl(19, 50%, 71%);
+    --gs-orange-400: hsl(19, 50%, 61%);
+    --gs-orange-500: hsl(19, 50%, 51%);
+    --gs-orange-600: hsl(19, 50%, 41%);
+    --gs-orange-700: hsl(19, 50%, 31%);
+    --gs-orange-800: hsl(19, 50%, 21%);
+    --gs-orange-850: hsl(19, 50%, 16%);
+    --gs-orange-900: hsl(19, 50%, 11%);
+    /* #endregion orange */
+
+    /* #region yellow */
+    --gs-yellow-core: #ffc107;
+    --gs-yellow-100: hsl(46, 70%, 90%);
+    --gs-yellow-150: hsl(46, 70%, 85%);
+    --gs-yellow-200: hsl(46, 70%, 80%);
+    --gs-yellow-300: hsl(46, 70%, 70%);
+    --gs-yellow-400: hsl(46, 70%, 60%);
+    --gs-yellow-500: hsl(46, 70%, 50%);
+    --gs-yellow-600: hsl(46, 70%, 40%);
+    --gs-yellow-700: hsl(46, 70%, 30%);
+    --gs-yellow-800: hsl(46, 70%, 20%);
+    --gs-yellow-850: hsl(46, 70%, 15%);
+    --gs-yellow-900: hsl(46, 70%, 10%);
+    /* #endregion yellow */
+
+    /* #region green */
+    --gs-green-core: #198754;
+    --gs-green-100: hsl(152, 38%, 95%);
+    --gs-green-150: hsl(152, 38%, 90%);
+    --gs-green-200: hsl(152, 38%, 85%);
+    --gs-green-300: hsl(152, 38%, 75%);
+    --gs-green-400: hsl(152, 38%, 65%);
+    --gs-green-500: hsl(152, 38%, 55%);
+    --gs-green-600: hsl(152, 38%, 45%);
+    --gs-green-700: hsl(152, 38%, 35%);
+    --gs-green-800: hsl(152, 38%, 25%);
+    --gs-green-850: hsl(152, 38%, 20%);
+    --gs-green-900: hsl(152, 38%, 15%);
+    /* #endregion green */
+
+    /* #region teal */
+    --gs-teal-core: #20c997;
+    --gs-teal-100: hsl(162, 60%, 89%);
+    --gs-teal-150: hsl(162, 60%, 84%);
+    --gs-teal-200: hsl(162, 60%, 79%);
+    --gs-teal-300: hsl(162, 60%, 69%);
+    --gs-teal-400: hsl(162, 60%, 59%);
+    --gs-teal-500: hsl(162, 60%, 49%);
+    --gs-teal-600: hsl(162, 60%, 39%);
+    --gs-teal-700: hsl(162, 60%, 29%);
+    --gs-teal-800: hsl(162, 60%, 19%);
+    --gs-teal-850: hsl(162, 60%, 14%);
+    --gs-teal-900: hsl(162, 60%, 9%);
+    /* #endregion teal */
+
+    /* #region cyan */
+    --gs-cyan-core: #0dcaf0;
+    --gs-cyan-100: hsl(191, 60%, 90%);
+    --gs-cyan-150: hsl(191, 60%, 85%);
+    --gs-cyan-200: hsl(191, 60%, 80%);
+    --gs-cyan-300: hsl(191, 60%, 70%);
+    --gs-cyan-400: hsl(191, 60%, 60%);
+    --gs-cyan-500: hsl(191, 60%, 50%);
+    --gs-cyan-600: hsl(191, 60%, 40%);
+    --gs-cyan-700: hsl(191, 60%, 30%);
+    --gs-cyan-800: hsl(191, 60%, 20%);
+    --gs-cyan-850: hsl(191, 60%, 15%);
+    --gs-cyan-900: hsl(191, 60%, 10%);
+    /* #endregion cyan */
+
+    /* #region gray */
+    --gs-gray-core: #adb5bd;
+    --gs-gray-100: hsl(210, 17%, 98%);
+    --gs-gray-150: hsl(210, 17%, 93%);
+    --gs-gray-200: hsl(210, 17%, 88%);
+    --gs-gray-300: hsl(210, 17%, 78%);
+    --gs-gray-400: hsl(210, 17%, 68%);
+    --gs-gray-500: hsl(210, 17%, 58%);
+    --gs-gray-600: hsl(210, 17%, 48%);
+    --gs-gray-700: hsl(210, 17%, 38%);
+    --gs-gray-800: hsl(210, 17%, 28%);
+    --gs-gray-850: hsl(210, 17%, 23%);
+    --gs-gray-900: hsl(210, 17%, 18%);
+    /* #endregion gray */
+}
+
+[data-gs-theme="blue"] {
+    --gs-theme-core: var(--gs-blue-core);
+    --gs-theme-100: var(--gs-blue-100);
+    --gs-theme-150: var(--gs-blue-150);
+    --gs-theme-200: var(--gs-blue-200);
+    --gs-theme-300: var(--gs-blue-300);
+    --gs-theme-400: var(--gs-blue-400);
+    --gs-theme-500: var(--gs-blue-500);
+    --gs-theme-600: var(--gs-blue-600);
+    --gs-theme-700: var(--gs-blue-700);
+    --gs-theme-800: var(--gs-blue-800);
+    --gs-theme-850: var(--gs-blue-850);
+    --gs-theme-900: var(--gs-blue-900);
+}
+
+[data-gs-theme="indigo"] {
+    --gs-theme-core: var(--gs-indigo-core);
+    --gs-theme-100: var(--gs-indigo-100);
+    --gs-theme-150: var(--gs-indigo-150);
+    --gs-theme-200: var(--gs-indigo-200);
+    --gs-theme-300: var(--gs-indigo-300);
+    --gs-theme-400: var(--gs-indigo-400);
+    --gs-theme-500: var(--gs-indigo-500);
+    --gs-theme-600: var(--gs-indigo-600);
+    --gs-theme-700: var(--gs-indigo-700);
+    --gs-theme-800: var(--gs-indigo-800);
+    --gs-theme-850: var(--gs-indigo-850);
+    --gs-theme-900: var(--gs-indigo-900);
+}
+
+[data-gs-theme="purple"] {
+    --gs-theme-core: var(--gs-purple-core);
+    --gs-theme-100: var(--gs-purple-100);
+    --gs-theme-150: var(--gs-purple-150);
+    --gs-theme-200: var(--gs-purple-200);
+    --gs-theme-300: var(--gs-purple-300);
+    --gs-theme-400: var(--gs-purple-400);
+    --gs-theme-500: var(--gs-purple-500);
+    --gs-theme-600: var(--gs-purple-600);
+    --gs-theme-700: var(--gs-purple-700);
+    --gs-theme-800: var(--gs-purple-800);
+    --gs-theme-850: var(--gs-purple-850);
+    --gs-theme-900: var(--gs-purple-900);
+}
+
+[data-gs-theme="pink"] {
+    --gs-theme-core: var(--gs-pink-core);
+    --gs-theme-100: var(--gs-pink-100);
+    --gs-theme-150: var(--gs-pink-150);
+    --gs-theme-200: var(--gs-pink-200);
+    --gs-theme-300: var(--gs-pink-300);
+    --gs-theme-400: var(--gs-pink-400);
+    --gs-theme-500: var(--gs-pink-500);
+    --gs-theme-600: var(--gs-pink-600);
+    --gs-theme-700: var(--gs-pink-700);
+    --gs-theme-800: var(--gs-pink-800);
+    --gs-theme-850: var(--gs-pink-850);
+    --gs-theme-900: var(--gs-pink-900);
+}
+
+[data-gs-theme="red"] {
+    --gs-theme-core: var(--gs-red-core);
+    --gs-theme-100: var(--gs-red-100);
+    --gs-theme-150: var(--gs-red-150);
+    --gs-theme-200: var(--gs-red-200);
+    --gs-theme-300: var(--gs-red-300);
+    --gs-theme-400: var(--gs-red-400);
+    --gs-theme-500: var(--gs-red-500);
+    --gs-theme-600: var(--gs-red-600);
+    --gs-theme-700: var(--gs-red-700);
+    --gs-theme-800: var(--gs-red-800);
+    --gs-theme-850: var(--gs-red-850);
+    --gs-theme-900: var(--gs-red-900);
+}
+
+[data-gs-theme="orange"] {
+    --gs-theme-core: var(--gs-orange-core);
+    --gs-theme-100: var(--gs-orange-100);
+    --gs-theme-150: var(--gs-orange-150);
+    --gs-theme-200: var(--gs-orange-200);
+    --gs-theme-300: var(--gs-orange-300);
+    --gs-theme-400: var(--gs-orange-400);
+    --gs-theme-500: var(--gs-orange-500);
+    --gs-theme-600: var(--gs-orange-600);
+    --gs-theme-700: var(--gs-orange-700);
+    --gs-theme-800: var(--gs-orange-800);
+    --gs-theme-850: var(--gs-orange-850);
+    --gs-theme-900: var(--gs-orange-900);
+}
+
+[data-gs-theme="yellow"] {
+    --gs-theme-core: var(--gs-yellow-core);
+    --gs-theme-100: var(--gs-yellow-100);
+    --gs-theme-150: var(--gs-yellow-150);
+    --gs-theme-200: var(--gs-yellow-200);
+    --gs-theme-300: var(--gs-yellow-300);
+    --gs-theme-400: var(--gs-yellow-400);
+    --gs-theme-500: var(--gs-yellow-500);
+    --gs-theme-600: var(--gs-yellow-600);
+    --gs-theme-700: var(--gs-yellow-700);
+    --gs-theme-800: var(--gs-yellow-800);
+    --gs-theme-850: var(--gs-yellow-850);
+    --gs-theme-900: var(--gs-yellow-900);
+}
+
+[data-gs-theme="green"] {
+    --gs-theme-core: #198754;
+    --gs-theme-100: hsl(152, 38%, 95%);
+    --gs-theme-150: hsl(152, 38%, 90%);
+    --gs-theme-200: hsl(152, 38%, 85%);
+    --gs-theme-300: hsl(152, 38%, 75%);
+    --gs-theme-400: hsl(152, 38%, 65%);
+    --gs-theme-500: hsl(152, 38%, 55%);
+    --gs-theme-600: hsl(152, 38%, 45%);
+    --gs-theme-700: hsl(152, 38%, 35%);
+    --gs-theme-800: hsl(152, 38%, 25%);
+    --gs-theme-850: hsl(152, 38%, 20%);
+    --gs-theme-900: hsl(152, 38%, 15%);
+}
+
+[data-gs-theme="teal"] {
+    --gs-theme-core: var(--gs-teal-core);
+    --gs-theme-100: var(--gs-teal-100);
+    --gs-theme-150: var(--gs-teal-150);
+    --gs-theme-200: var(--gs-teal-200);
+    --gs-theme-300: var(--gs-teal-300);
+    --gs-theme-400: var(--gs-teal-400);
+    --gs-theme-500: var(--gs-teal-500);
+    --gs-theme-600: var(--gs-teal-600);
+    --gs-theme-700: var(--gs-teal-700);
+    --gs-theme-800: var(--gs-teal-800);
+    --gs-theme-850: var(--gs-teal-850);
+    --gs-theme-900: var(--gs-teal-900);
+}
+
+[data-gs-theme="cyan"] {
+    --gs-theme-core: var(--gs-cyan-core);
+    --gs-theme-100: var(--gs-cyan-100);
+    --gs-theme-150: var(--gs-cyan-150);
+    --gs-theme-200: var(--gs-cyan-200);
+    --gs-theme-300: var(--gs-cyan-300);
+    --gs-theme-400: var(--gs-cyan-400);
+    --gs-theme-500: var(--gs-cyan-500);
+    --gs-theme-600: var(--gs-cyan-600);
+    --gs-theme-700: var(--gs-cyan-700);
+    --gs-theme-800: var(--gs-cyan-800);
+    --gs-theme-850: var(--gs-cyan-850);
+    --gs-theme-900: var(--gs-cyan-900);
+}
+
+[data-gs-theme="gray"] {
+    --gs-theme-core: var(--gs-gray-core);
+    --gs-theme-100: var(--gs-gray-100);
+    --gs-theme-150: var(--gs-gray-150);
+    --gs-theme-200: var(--gs-gray-200);
+    --gs-theme-300: var(--gs-gray-300);
+    --gs-theme-400: var(--gs-gray-400);
+    --gs-theme-500: var(--gs-gray-500);
+    --gs-theme-600: var(--gs-gray-600);
+    --gs-theme-700: var(--gs-gray-700);
+    --gs-theme-800: var(--gs-gray-800);
+    --gs-theme-850: var(--gs-gray-850);
+    --gs-theme-900: var(--gs-gray-900);
+}
