@@ -83,7 +83,7 @@ section {
 
 #home {
     background-color: var(--gs-theme-900);
-    background-image: url(/img/space_bg.jpg);
+    background-image: url(/img/background.jpg);
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
