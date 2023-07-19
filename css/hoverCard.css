@@ -42,32 +42,30 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     transition: .5s;
 }
 
+
 .cardTitle {
-    z-index: 2;
     color: var(--gs-theme-100);
     font-family: var(--gs-title-font);
     font-size: 2.5em;
-    line-height: 1em;
+    line-height: .8em;
     text-transform: uppercase;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-    text-shadow: 2px 1px #292929;
     position: absolute;
-    top: 5rem;
+    bottom: .8rem;
+    right: 0rem;
+    background-color:rgba(0, 0, 0, .6);
+    width: 100%;
+
 }
-.cardTitleBuzz {
-    z-index: 2;
-    color: var(--gs-theme-100);
-    font-family: var(--gs-title-font);
-    font-size: 2.5em;
-    line-height: 1em;
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    text-shadow: 2px 1px #292929;
-    position: absolute;
-    bottom: .5rem;
-    right: .8rem;
+
+.cardTitle>p {
+    text-align: center;
+    margin-bottom: 0rem;
+    margin-top: .25rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hc-card .hc-content p {
@@ -80,7 +78,7 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     transform: translateY(20px);
 }
 
-.hc-card:hover .cardTitle, .hc-card:hover .cardTitleBuzz {
+.hc-card:hover .cardTitle {
     display: none;
 }
 
