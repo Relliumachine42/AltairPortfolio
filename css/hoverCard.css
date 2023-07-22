@@ -66,6 +66,7 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: color 5s;
 }
 
 .hc-card .hc-content p {
@@ -80,6 +81,10 @@ Ensure your images are large enough that they won't neeed to stretch for hte def
 
 .hc-card:hover .cardTitle {
     display: none;
+}
+
+.hc-card:hover .cardTitle>p {
+    color:rgba(0, 0, 0, 0);
 }
 
 .hc-card:hover .hc-content {
