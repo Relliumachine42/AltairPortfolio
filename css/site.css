@@ -37,12 +37,18 @@ body {
 
 }
 
-h6, .h6,
-h5, .h5,
-h4, .h4,
-h3, .h3,
-h2, .h2,
-h1, .h1 {
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
     font-family: var(--gs-heading-font);
     font-weight: var(700);
     text-transform: uppercase;
@@ -98,15 +104,18 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* backdrop filter for Safari */
+    -webkit-backdrop-filter: brightness(0.7) blur(1px);
+
 }
 
 .mainLogo {
     height: 2.25em;
-    
+
 }
 
 .mainHeader {
-    position:absolute;
+    position: absolute;
     top: 15rem;
 }
 
@@ -127,7 +136,7 @@ section {
     font-size: 1.28rem;
     letter-spacing: .1rem;
     line-height: 1.1rem;
-    font-weight:300;
+    font-weight: 300;
 }
 
 /* END: Home Section */
@@ -152,6 +161,7 @@ section {
 .section-page:nth-child(even)>.container::after {
     background-color: var(--gs-theme-100);
 }
+
 .section-page:nth-child(odd),
 .section-page:nth-child(odd)>.container::after {
     background-color: var(--gs-theme-150);
@@ -202,29 +212,30 @@ footer .card {
 /* START: MEDIA QUERIES */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .mainTitle {
         font-size: 7rem;
         line-height: 5.5rem;
     }
+
     .subTitle {
         font-size: 1.7rem;
         line-height: 1.2rem;
         letter-spacing: .2rem;
         padding-top: .25rem;
     }
- }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
- 
+@media (min-width: 1400px) {}
+
 /* END: Media Queries */
